@@ -1,0 +1,41 @@
+#main {
+  display: flex;
+  justify-content: space-around;
+  background-color: silver;
+  width: 100%;
+  height: 2rem;
+}
+#main a.top {
+  text-decoration: none;
+  color: cyan;
+}
+h1,
+h2,
+.tops {
+  text-align: center;
+}
+#main a:hover {
+  color: fuchsia;
+}
+body {
+  margin: 0 auto;
+}
+#banner {
+  height: 10rem;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+article {
+  padding: 2rem;
+  margin: 0.2rem;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+article img {
+  width: 250px;
+  height: 60%;
+}
+.reel {
+  display: flex;
+}
