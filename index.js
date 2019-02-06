@@ -27,4 +27,8 @@ const spinningReverse2=() => {
 }
 
 let articles=document.querySelectorAll('.bottom').forEach(element =>
-  element.style.backgroundColor = '#FCFDAF')
+  element.style.backgroundColor = '#FCFDAF');
+
+let slides=document.querySelectorAll('.slide-image')
+
+Array.from(slides).map(i=>{i.style.opacity = '.75'; console.log(i);});
