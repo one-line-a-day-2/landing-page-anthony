@@ -6,13 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Muli" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index2.css">
     <script src="bootstrap.js"></script>
-    <script src="index.js"></script>
 </head>
 <!-- Navigation -->
 <nav id="main-nav">
@@ -29,7 +33,7 @@
         <header>
             <h1>One Line a Day</h1>
         </header>
-        <div class="tops">
+        <div class="top">
 
             <h2>Welcome to One Line a Day</h2>
             <p>
@@ -39,55 +43,62 @@
     </section>
     <!-- Carousel Section on Desktop -->
     <div class="carousel-container">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"  data-pause="false" data-interval="3000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="images/pic001.jpg" class="d-block w-100" alt="...">
-              <header>
-                <h3>Daily Journal</h3>
-            </header>
-            <p>A short snippet, every day to remind yourself.
-            </p>
+        <!-- Bootstrap Carousel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-pause="false"
+            data-interval="3000">
+            <div class="carousel-item active">
+                <img src="images/pic001.jpg" class="d-block w-100" alt="...">
+                <header>
+                    <h3>Daily Journal</h3>
+                </header>
+                <p>A short snippet, every day to remind yourself.
+                </p>
             </div>
-          <div class="carousel-item">
-            <img src="images/pic002.jpg" class="d-block w-100" alt="...">
-            <header>
-                <h3></a>Quick Reminder</h3>
-            </header>
-            <p>Tell yourself every day how amazing you are.</p>
-        
-          </div>
-          <div class="carousel-item">
-            <img src="images/pic03.jpg" class="d-block w-100" alt="...">
-            <header>
-                <h3>Looking Back</h3>
-            </header>
-            <p>So you never forget how far you have come.</p>
-          </div>
-          <div class="carousel-item">
-            <img src="images/pic04.jpg" class="d-block w-100" alt="...">
-            <header>
-                <h3>Something to share</h3>
-            </header>
-            <p>Each snippet is not just something personal.
-            </p>
-          </div>
-          <div class="carousel-item">
-            <img src="images/pic05.jpg" class="d-block w-100" alt="...">
-            <header>
-                <h3>Entertain yourself</h3>
-            </header>
-            <p>Be creative and have fun.</p>
+            <div class="carousel-item">
+                <img src="images/pic002.jpg" class="d-block w-100" alt="...">
+                <header>
+                    <h3></a>Quick Reminder</h3>
+                </header>
+                <p>Tell yourself every day how amazing you are.</p>
+
+            </div>
+            <div class="carousel-item">
+                <img src="images/pic03.jpg" class="d-block w-100" alt="...">
+                <header>
+                    <h3>Looking Back</h3>
+                </header>
+                <p>So you never forget how far you have come.</p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pic04.jpg" class="d-block w-100" alt="...">
+                <header>
+                    <h3>Something to share</h3>
+                </header>
+                <p>Each snippet is not just something personal.
+                </p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/pic05.jpg" class="d-block w-100" alt="...">
+                <header>
+                    <h3>Entertain yourself</h3>
+                </header>
+                <p>Be creative and have fun.</p>
+            </div>
         </div>
-        </div>
-      </div>
+        <!-- End Bootstrap Carousel -->
     </div>
+    <!-- End Carousel Div -->
+
+    <!-- //Bottom Section// -->
     <div class="bottom-section">
-        <!-- Aricle Section on Mobile -->
+
+        <!-- Article Section -->
         <section class="article-section">
+
+            <!-- Reel -->
             <div class="reel" style="overflow: visible; transform: translate(-4px, 0px);">
 
-                <article class="">
+                <article class="item item-selected">
                     <img src="images/pic001.jpg" alt=""></a>
                     <header>
                         <h3>Daily Journal</h3>
@@ -96,7 +107,7 @@
                     </p>
                 </article>
 
-                <article class="">
+                <article class="item">
                     <img src="images/pic002.jpg" alt=""></a>
                     <header>
                         <h3><a href="#"></a>Quick Reminder</h3>
@@ -104,7 +115,7 @@
                     <p>Tell yourself every day how amazing you are.</p>
                 </article>
 
-                <article class="">
+                <article class="item">
                     <img src="images/pic03.jpg" alt="">
                     <header>
                         <h3>Looking Back</h3>
@@ -112,7 +123,7 @@
                     <p>So you never forget how far you have come.</p>
                 </article>
 
-                <article class="">
+                <article class="item">
                     <img src="images/pic04.jpg" alt="">
                     <header>
                         <h3>Entertain yourself</h3>
@@ -120,7 +131,7 @@
                     <p>Be creative and have fun.</p>
                 </article>
 
-                <article class="">
+                <article class="item">
                     <img src="images/pic05.jpg" alt="">
                     <header>
                         <h3>Something to share</h3>
@@ -130,30 +141,34 @@
                 </article>
 
             </div>
+            <!-- End Reel -->
+
             <span class="forward" style=""></span><span class="backward" style=""></span>
         </section>
-        <div class="wrapper">
-
-            <article>
-                <h2>One Line. Each Day.</h2>
-                <img src="images/pic06.jpg" alt="">
-
-
-                <p>
-                    It's not a big ask. In 30 seconds or less, every day, you can create
-                    a long journal of your entire story.
-
-                    Everyone can benefit from One Line a Day. 
-                </p>
-                <button>
-                    <a href="#" class="button">Sign Up</a>
-                </button>
-            </article>
-
-        </div>
-
+        <!-- End Article Section -->
     </div>
+    <!-- End Bottom Section -->
 
+    <!-- Wrapper for bottom picture -->
+    <div class="wrapper">
+
+        <!-- Div for Featured Photo -->
+        <div class="featured">
+            <h2>One Line. Each Day.</h2>
+            <img src="images/pic06.jpg" alt="">
+            <p>
+                It's not a big ask. In 30 seconds or less, every day, you can create
+                a long journal of your entire story.
+
+                Everyone can benefit from One Line a Day.
+            </p>
+            <button>
+                <a href="#" class="button">Sign Up</a>
+            </button>
+        </div>>
+        <!-- End Featured Photo Div -->
+    </div>
+    <!-- End Wrapper -->
 
     <div class="bottom">
         <!-- Contact -->
@@ -179,4 +194,6 @@
     </div>
 
 </body>
+<script src="index.js"></script>
+
 </html>

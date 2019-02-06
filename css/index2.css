@@ -79,7 +79,7 @@ body #banner {
 body #banner header {
   width: 80%;
 }
-body #banner .tops {
+body #banner .top {
   width: 80%;
 }
 body .carousel-container {
@@ -231,54 +231,56 @@ body .bottom-section .article-section .reel article p {
   font-size: 0.75rem;
   padding: 0.3rem;
 }
-body .bottom-section .wrapper {
+body .wrapper {
   display: flex;
   justify-content: center;
   border-bottom: 2px solid #030301;
 }
-body .bottom-section .wrapper article {
+body .wrapper .featured {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
 }
-body .bottom-section .wrapper article img {
+body .wrapper .featured img {
   width: 100%;
   height: 15rem;
 }
 @media (min-width: 500px) {
-  body .bottom-section .wrapper article img {
+  body .wrapper .featured img {
     height: 20rem;
   }
 }
 @media (min-width: 800px) {
-  body .bottom-section .wrapper article img {
+  body .wrapper .featured img {
     height: 24rem;
   }
 }
-body .bottom-section .wrapper article button {
+body .wrapper .featured button {
   border: 1px solid #030301;
-  border-radius: 100px;
-  padding: 15px;
+  border-radius: 50%;
+  padding: 35px;
   margin-bottom: 3rem;
-  width: 50%;
+  width: 40%;
   background-color: #FCFDAF;
 }
 @media (min-width: 500px) {
-  body .bottom-section .wrapper article button {
-    width: 30%;
+  body .wrapper .featured button {
+    width: 150px;
+    border-radius: 50%;
+    padding: 45px;
   }
 }
-body .bottom-section .wrapper article button a {
+body .wrapper .featured button a {
   font-size: 1.2rem;
   color: #030301;
   text-decoration: none;
 }
-body .bottom-section .wrapper article button:hover {
+body .wrapper .featured button:hover {
   cursor: pointer;
   background-color: #FF4365;
 }
-body .bottom-section .wrapper article p {
+body .wrapper .featured p {
   width: 90%;
   padding: 1rem;
 }
