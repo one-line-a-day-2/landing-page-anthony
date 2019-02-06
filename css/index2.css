@@ -1,0 +1,305 @@
+h1,
+h2,
+h3,
+h4 .tops,
+p,
+button,
+address,
+ul,
+ol {
+  font-family: Fredoka One;
+  text-align: center;
+  text-decoration: none;
+  color: #030301;
+}
+h1 {
+  padding-top: 1rem;
+  font-size: 3.5rem;
+  color: #030301;
+}
+p,
+address {
+  font-size: 0.8rem;
+  font-weight: none;
+}
+@media (min-width: 500px) {
+  p,
+  address {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 800px) {
+  p,
+  address {
+    font-size: 1.1rem;
+  }
+}
+#main-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 2rem;
+  background-color: #FCFDAF;
+}
+@media (min-width: 500px) {
+  #main-nav {
+    justify-content: space-around;
+  }
+}
+#main-nav .top-nav {
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: #00D9C0;
+  margin-top: 0.5rem;
+  font-family: Fredoka One;
+  background-color: #FCFDAF;
+}
+#main-nav .top-nav:hover,
+#main-nav .logo {
+  color: #FF4365;
+  cursor: pointer;
+}
+body {
+  margin: 0 auto;
+}
+body #banner {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: #FCFDAF;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+@media (min-width: 500px) {
+  body #banner {
+    margin-bottom: 0;
+  }
+}
+body #banner header {
+  width: 80%;
+}
+body #banner .top {
+  width: 80%;
+}
+body .carousel-container {
+  display: none;
+}
+@media (min-width: 500px) {
+  body .carousel-container {
+    background-color: #F8F9FA;
+    display: flex;
+    border-bottom: solid 2px #030301;
+    margin-bottom: 3rem;
+  }
+}
+body .carousel-container .carousel-item img {
+  height: 33rem;
+}
+@media (min-width: 500px) {
+  body .carousel-container .carousel-item img {
+    height: 26rem;
+  }
+}
+@media (min-width: 800px) {
+  body .carousel-container .carousel-item img {
+    height: 30rem;
+  }
+}
+@media (min-width: 1000px) {
+  body .carousel-container .carousel-item img {
+    height: 34rem;
+  }
+}
+body .carousel-container .carousel-item header {
+  padding: 1rem;
+}
+body .carousel-container .carousel-item p {
+  padding: 1rem;
+}
+body .bottom-section {
+  width: 100%;
+  margin: 0 auto;
+}
+body .bottom-section .article-section {
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 2em 0;
+  margin-bottom: 0;
+}
+@media (min-width: 500px) {
+  body .bottom-section .article-section {
+    display: none;
+  }
+}
+body .bottom-section .article-section .reel {
+  white-space: nowrap;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 2em 0 2em;
+}
+@media (min-width: 500px) {
+  body .bottom-section .article-section .reel {
+    padding: 0;
+  }
+}
+body .bottom-section .article-section .reel .forward:before,
+body .bottom-section .article-section .reel .backward:before {
+  content: '';
+  display: none;
+  width: 7em;
+  height: 6em;
+  border-radius: 30%;
+  background-color: #FCFDAF;
+  position: absolute;
+  top: 50%;
+  margin-top: -8em;
+  -moz-transition: background-color 0.35s ease-in-out;
+  -webkit-transition: background-color 0.35s ease-in-out;
+  -o-transition: background-color 0.35s ease-in-out;
+  -ms-transition: background-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out;
+  -webkit-backface-visibility: hidden;
+}
+@media (min-width: 500px) {
+  body .bottom-section .article-section .reel .forward:before,
+  body .bottom-section .article-section .reel .backward:before {
+    display: block;
+  }
+}
+body .bottom-section .article-section .reel .forward:after,
+body .bottom-section .article-section .reel .backward:after {
+  content: '';
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  top: 50%;
+  margin: -1.5em 0 0 0;
+}
+body .bottom-section .article-section .reel .forward:hover:before,
+body .bottom-section .article-section .reel .backward:hover:before {
+  background-color: #FF4365;
+  cursor: pointer;
+}
+body .bottom-section .article-section .reel .forward {
+  right: 0;
+}
+body .bottom-section .article-section .reel .forward:before {
+  right: -3em;
+}
+body .bottom-section .article-section .reel .forward:after {
+  right: -0.25em;
+}
+body .bottom-section .article-section .reel .backward {
+  left: 0;
+}
+body .bottom-section .article-section .reel .backward:before {
+  left: -3em;
+}
+body .bottom-section .article-section .reel .backward:after {
+  left: -0.25em;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+body .bottom-section .article-section .reel article {
+  display: block;
+  background: #F8F9FA;
+  text-align: center;
+  padding: 0 1em 3em 1em;
+  margin: 0 0 0 0;
+  white-space: normal;
+  -moz-transition: opacity 0.75s ease-in-out;
+  -webkit-transition: opacity 0.75s ease-in-out;
+  -ms-transition: opacity 0.75s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
+}
+@media (min-width: 500px) {
+  body .bottom-section .article-section .reel article {
+    display: inline-block;
+    width: 50%;
+  }
+}
+body .bottom-section .article-section .reel article img {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+body .bottom-section .article-section .reel article p {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.3rem;
+}
+body .wrapper {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #030301;
+}
+body .wrapper .featured {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+body .wrapper .featured img {
+  width: 100%;
+  height: 15rem;
+}
+@media (min-width: 500px) {
+  body .wrapper .featured img {
+    height: 20rem;
+  }
+}
+@media (min-width: 800px) {
+  body .wrapper .featured img {
+    height: 24rem;
+  }
+}
+body .wrapper .featured button {
+  border: 1px solid #030301;
+  border-radius: 50%;
+  padding: 35px;
+  margin-bottom: 3rem;
+  width: 40%;
+  background-color: #FCFDAF;
+}
+@media (min-width: 500px) {
+  body .wrapper .featured button {
+    width: 150px;
+    border-radius: 50%;
+    padding: 45px;
+  }
+}
+body .wrapper .featured button a {
+  font-size: 1.2rem;
+  color: #030301;
+  text-decoration: none;
+}
+body .wrapper .featured button:hover {
+  cursor: pointer;
+  background-color: #FF4365;
+}
+body .wrapper .featured p {
+  width: 90%;
+  padding: 1rem;
+}
+body .about-page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+body .about-page .about {
+  width: 80%;
+  padding: 2rem;
+}
+body .about-page .about img {
+  width: 100%;
+  padding: 1.5rem;
+}
+body .bottom {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
