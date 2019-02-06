@@ -299,8 +299,7 @@ body .about-page .about img {
   padding: 1.5rem;
 }
 body .bottom {
-  margin-top: 2rem;
-  padding: 0.2rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
 }

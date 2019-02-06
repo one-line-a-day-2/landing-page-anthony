@@ -26,3 +26,5 @@ const spinningReverse2=() => {
   TweenMax.to(spin2, 1, {rotation:0, ease: Power4.easeOut});
 }
 
+let articles=document.querySelectorAll('.bottom').forEach(element =>
+  element.style.backgroundColor = '#FCFDAF')
